@@ -1,0 +1,4 @@
+package hack
+
+class DynamicArray {
+}
