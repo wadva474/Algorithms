@@ -3,7 +3,7 @@ package hack
 import java.util.*
 
 fun main() {
-    val resultArray = MutableList(0) {0}
+    val resultArray = MutableList(0) { 0 }
     val scanner = Scanner(System.`in`)
     val array = Array(6) { Array(6) { 0 } }
     for (i in 0 until 6) {
