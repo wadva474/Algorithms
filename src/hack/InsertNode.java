@@ -24,6 +24,14 @@ public class InsertNode {
 
     }
 
+    // This method Provides Solution for
+    //https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem?h_r=next-challenge&h_v=zen
+    private static Node insertNodeAtHead(Node node, int data){
+        Node newNode = new Node(data);
+        node.next = newNode;
+        return newNode;
+    }
+
     static class Node {
         public Node(int data) {
             this.data = data;
